@@ -30,7 +30,7 @@ export default async function RoadmapItemsTable() {
           inProgress={inProgress}
           live={live}
         />
-        <div className="px-6 pt-6 grid-cols-1 md:p-0 grid md:grid-cols-3 gap-x-[10px] lg:gap-x-[30px]">
+        <div className="px-6 py-6 grid-cols-1 md:p-0 grid md:grid-cols-3 gap-x-[10px] lg:gap-x-[30px]">
           <RoadmapColumn
             feedbackItems={plannedItems}
             count={planned}
