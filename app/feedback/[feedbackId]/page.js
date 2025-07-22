@@ -19,9 +19,7 @@ export default async function Page({ params, searchParams }) {
   return (
     <div className="m-6 md:m-0 lg:max-w-[730px] lg:mx-auto flex flex-col gap-6 grow">
       <div className="flex flex-row justify-between items-center ">
-        <NavigationLink href="/" type="link">
-          Go back
-        </NavigationLink>
+        <NavigationLink type="link">Go back</NavigationLink>
         <FormButton type="blue" destination={`/feedback/edit/${feedbackId}`}>
           Edit Feedback
         </FormButton>

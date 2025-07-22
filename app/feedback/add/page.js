@@ -34,9 +34,7 @@ export default function Page() {
   return (
     <div className="w-auto mx-6 mt-8 mb-20 md:w-[540px] md:mx-auto flex flex-col lg:mt-3">
       <div className="flex flex-row justify-between items-center mb-[55px] md:mb-[68px]">
-        <NavigationLink href="/" type="link">
-          Go back
-        </NavigationLink>
+        <NavigationLink type="link">Go back</NavigationLink>
       </div>
       <div className="bg-white rounded-card-corner px-6 pb-6 pt-[44px] md:px-[42px] md:pt-[52px] md:pb-10 relative">
         <Image
