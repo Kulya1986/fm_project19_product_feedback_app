@@ -1,6 +1,5 @@
 import EditForm from "@/app/_components/EditForm";
 import NavigationLink from "@/app/_components/NavigationLink";
-// import { deleteFeedback } from "@/app/_lib/actions";
 import { getFeedback } from "@/app/_lib/data-service";
 import Image from "next/image";
 
@@ -10,12 +9,6 @@ export default async function Page({ params }) {
   const { feedbackId } = await params;
   const data = await getFeedback(feedbackId);
   const feedback = data[0];
-
-  // function handleDelete(feedbackId) {
-
-  //     if (confirm("Are you sure you want to delete this feedback?")) await deleteFeedback(id);
-
-  //   }
 
   return (
     <div className="w-auto mx-6 mt-8 mb-20 md:w-[540px] md:mx-auto flex flex-col lg:mt-3">

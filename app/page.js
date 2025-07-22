@@ -1,8 +1,3 @@
-import Image from "next/image";
-// import prodFeedDesktop from "@/public/background-header-desktop.png";
-// import prodFeedTablet from "@/public/background-header-tablet.png";
-// import prodFeedMobile from "@/public/background-header-mobile.png";
-
 import SuggestionsList from "@/app/_components/SuggestionsList";
 import FeedbackPanel from "@/app/_components/FeedbackPanel";
 
@@ -10,7 +5,7 @@ import Spinner from "./_components/Spinner";
 import { Suspense } from "react";
 import RoadmapTable from "@/app/_components/RoadmapTable";
 import SpinnerMini from "@/app/_components/SpinnerMini";
-import TypeFilters from "@/app/_components/TypeFIlters";
+import TypeFilters from "@/app/_components/TypeFilters";
 import { MobileMenuProvider } from "./_components/MobileMenuContext";
 import { getFeedbackFilteredSorted } from "./_lib/data-service";
 import MobileMenuToggle from "@/app/_components/MobileMenuToggle";

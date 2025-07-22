@@ -4,8 +4,6 @@ import { useMobileMenu } from "./MobileMenuContext";
 function SideBar({ children }) {
   const { open } = useMobileMenu();
 
-  console.log(open);
-
   return (
     <div>
       <div
